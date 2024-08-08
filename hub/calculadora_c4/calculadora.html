@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="text/javascript" src="jsCalculadora.js"></script>
+    <script type="text/javascript" src="jquery-3.6.1.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div>
+                <a href="../index.html" ><i class="ph-bold ph-house"></i></a>
+            </div>
+        </nav>
+        <main>
+            <div class="casca">
+                <div class="tela">
+                    <input class="" type="number" id="tela_numero_1" placeholder=""><br>
+                    <input class="" type="number" id="tela_numero_2" placeholder="">
+                </div>
+                <div class="contas">
+                    <button type="button" value="+" id="b_soma" class="button" onclick="calcular(document.getElementById('b_soma').value)">+</button>
+                    <button type="button" value="-" id="b_sub" class="button" onclick="calcular(document.getElementById('b_sub').value)">-</button><br>
+                    <button type="button" value="/" id="b_div" class="button" onclick="calcular(document.getElementById('b_div').value)">/</button>
+                    <button type="button" value="*" id="b_mult" class="button" onclick="calcular(document.getElementById('b_mult').value)">*</button>
+                </div>
+                <div class="resultado">
+                    <div>
+                        <h1 id="resultado_text">0</h1>
+                    </div>
+                </div>
+                <div class="desligar">
+                    <i class="ph-bold ph-power" onclick="desligar()"></i>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- <div id="cal">
+        <div class="centralizar" id="tela">
+            <input class="input_tela" type="text" id="tela_numero_1"><br>
+            <input class="input_tela" type="text" id="tela_numero_2">
+            <button>C</button><button>*-*</button>
+        </div>
+        <div class="centralizar" id="contas">
+            <button type="button" value="+" id="b_soma" class="button" onclick="calcular(document.getElementById('b_soma').value)">+</button>
+            <button type="button" value="-" id="b_sub" class="button" onclick="calcular(document.getElementById('b_sub').value)">-</button><br>
+            <button type="button" value="/" id="b_div" class="button" onclick="calcular(document.getElementById('b_div').value)">/</button>
+            <button type="button" value="*" id="b_mult" class="button" onclick="calcular(document.getElementById('b_mult').value)">*</button>
+        </div>
+        <div class="centralizar" id="igual">
+            <h1 id="igual_text">=</h1>
+        </div><br>
+        <div class="centralizar" id="resultado">
+            <h1 id="resultado_text">0</h1>
+        </div>
+    </div> -->
+    
+</body>
+</html>

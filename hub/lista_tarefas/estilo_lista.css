@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    font-size: 300%;
+    color: blue;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+
+.conteiner{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.2% 3%;
+}
+nav a i, nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    position: fixed;
+}
+
+main{
+    padding: 2% 5% 0 5%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .top{
+    background-color: rgb(57, 61, 85);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    padding: 3% 3% 0 3%;
+}
+
+main .top span#teste{
+    font-size: 25px;
+    background-color: white;
+    width: 60%;
+    border-radius: 5px;
+}
+
+main .top span#teste2{
+    font-size: 25px;
+    background-color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+main .top button{
+    font-size: 25px;
+    background-color: blue;
+    color: white;
+    width: 10%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main .centralize{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(57, 61, 85);
+    padding: 2% 3% 3% 3%;
+    border-radius: 0 0 5px 5px;
+}
+
+main .centralize .list_body{
+    overflow-y: auto;
+    max-height: 500px;
+    width: 30%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+main .centralize .list_body::-webkit-scrollbar{
+    display: none;
+    background: transparent;
+}
+
+main .centralize .list_body .list_info{
+    font-size: 25px;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    width: 90%;
+}
+
+main .centralize .detalhes{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5% 0 5%;
+}
+
+main .centralize .detalhes span{
+    font-size: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+main .centralize .detalhes #titulo_hora{
+    height: 10%;
+    margin: 5% 0 5% 0;
+    text-align: center;
+}
+
+main .centralize .detalhes #descricao_hora{
+    height: 70%;
+    margin: 5% 0 5% 0;
+    text-align: center;
+}

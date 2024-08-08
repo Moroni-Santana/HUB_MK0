@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.conteiner{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10% 0;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.2% 3%;
+}
+nav a i, nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    position: fixed;
+}
+
+main  .body{
+    width: 60%;
+    margin: 0 20%;
+}
+
+main  .body .troca{
+    display: flex;
+    justify-content: left;
+}
+
+main  .body .troca .trocas_btn{
+    margin: 0 2%;
+    background-color: rgb(57, 61, 85);
+    border: none;
+    width: 10%;
+    border-radius: 2px 2px 0 0;
+    color: rgb(57, 61, 85);
+}
+
+main  .body .clock{
+    background-color: rgb(72, 77, 107);
+    border-radius: 15px;
+    padding: 2%;
+}
+
+main  .body .clock .screen{
+    background-color: black;
+    padding: 0 2%;
+}
+
+main  .body .clock .screen, .crono_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+main  .body .clock .screen .rel, span{
+    font-size: 150px;
+    color: greenyellow;
+}
+
+main  .body .clock .crono_buttons .crono_button{
+    width: 100px;
+    border-radius: 8px;
+    margin: 2% 0 0 0;
+    border: none;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo_rel.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Relogio</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div>
+                <a href="../index.html" ><i class="ph-bold ph-house"></i></a>
+            </div>
+        </nav>
+        <main>
+            <div class="body">
+                <div class="troca">
+                    <button class="trocas_btn" id="btn_crono">a</button>
+                    <button class="trocas_btn" id="btn_rel"> </button>
+                </div>
+                <div class="clock">
+                    <div class="screen">
+                        <div class="rel" id="hours">00</div>
+                        <span>:</span>
+                        <div class="rel" id="minutes">00</div>
+                        <span>:</span>
+                        <div class="rel" id="seconds">00</div>
+                    </div>
+                    <div class="crono_buttons">
+                        <button class="crono_button" id="btn_play_crono"><i class="ph-bold ph-play"></i></button>
+                        <button class="crono_button" id="btn_pause_crono"><i class="ph-bold ph-pause"></i></button>
+                        <button class="crono_button" id="btn_stop_crono"><i class="ph-bold ph-stop"></i></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="jsRelogio.js"></script>
+</body>
+</html>

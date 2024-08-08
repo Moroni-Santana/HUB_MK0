@@ -1,0 +1,207 @@
+/*id
+div#cal {
+    width: 50%;
+    height: 150px;
+    background-color: grey;
+    margin: 10% 25% 0px 25%;
+    padding: 1%;
+    border-radius: 10px;
+}
+div#tela{
+    background-color: darkgrey;
+    /* margin: 0px 0px 5px 0px; */
+    /*float: left;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 25%;
+    padding: 0% 1% 1% 1%;
+}
+div#contas{
+    background-color: darkgrey;
+    float: left;
+    padding-left: 5%;
+    border-radius: 0px 10px 10px 0px;
+}
+div#igual h1{
+    font-size: 50px;
+    float: none;
+    margin-top: 30%;
+    margin-left: 43%;
+}
+div#resultado h1{
+    font-size: 30px;
+    float: none;
+    /* margin-top: 8%; */
+/*}
+body{
+    background-color: white;
+}
+button#b_mult{
+    padding-top: 0px;
+}
+/* div#igual{
+    margin-top: 6%;
+} */
+/*div h1{
+    /* margin: 0% 0px 0px 70px; */
+    /*border-radius: 10px;
+    text-decoration: none;
+    background-color: darkgrey;
+}
+h1#igual_text{
+    height: 55px;
+    width: 55px;
+}
+h1#resultado_text{
+    padding: 50px;
+} */
+/* name */
+
+/* class
+
+
+.button {
+    background-color: grey;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+}
+
+.centralizar{
+    text-align: center;
+}
+.input_tela{
+    height: 50px;
+    margin-top: 4%;
+    border-radius: 5px;
+}
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.conteiner{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+main{
+    margin-top: 20px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+
+.casca{
+    margin: 5% 25%;
+    background-color: rgb(72, 77, 107);
+    padding: 5%;
+    border-radius: 15px;
+}
+
+.casca .tela{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.casca .tela input{
+    margin: 0 5%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(101, 193, 193);
+    color: black;
+    transition: background-color 0.3s ease-out;
+}
+
+::placeholder{
+    color: black;
+}
+
+.casca .contas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.casca .contas button{
+    background-color: rgb(101, 193, 193);
+    border: none;
+    border-radius: 15px;
+    padding: 3% 5%;
+    margin: 2%;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.casca .resultado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.2% 3%;
+}
+nav a i, nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    position: fixed;
+}
+
+.casca .tela .correto{
+    background-color: rgb(186, 248, 94);
+}
+
+.casca .contas button:hover{
+    background-color: rgb(186, 248, 94);
+}
+
+.casca .desligar{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.casca .desligar i:hover{
+    transition: color 0.3s ease-out;
+    color: rgb(186, 248, 94);
+    cursor: pointer;
+}
+
+.casca .tela .erro{
+    background-color: red;
+}
+
+.casca .contas .button_erro:hover{
+    background-color: red;
+}
